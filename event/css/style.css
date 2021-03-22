@@ -1,0 +1,462 @@
+@import url(reset.css);
+
+#wrap {
+    width: 100%;
+}
+
+p.box_text_1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 25px;
+}
+
+p.box_text_2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p.head_text {
+    font-size: 2em;
+    font-family: 'KOTRA_BOLD-Bold';
+}
+
+p.head_text_1 {
+    font-size: 2.5em;
+    font-family: 'KOTRA_BOLD-Bold';
+    color: #ffcc63;
+}
+
+p.head_text_2 {
+    font-size: 2.5em;
+    font-family: 'KOTRA_BOLD-Bold';
+    color: #fff;
+}
+
+p.head_text_3 {
+    font-size: 1.25em;
+    text-align: center;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    color: #000;
+    line-height: 35px;
+}
+
+#header_wrap {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'KOTRA_BOLD-Bold';
+    color: #fff;
+    padding-top: 70px;
+}
+
+#header_wrap_1 {
+    width: 100%;
+    height: 15%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'KOTRA_BOLD-Bold';
+    color: #fff;
+    padding-top: 70px;
+
+
+}
+
+.header {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.h1_box {
+    width: 110px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 370px;
+    text-align: center;
+    background: #fff;
+    color: #ff49b7;
+    padding: 8px 0;
+    line-height: 25px;
+}
+
+.chart_wrap {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 15px 0;
+}
+
+ul {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+
+ul li {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #fff;
+    float: left;
+    margin: 0 3px 3px 0;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+}
+
+ul li.none {
+    border: 2px solid #f866be;
+}
+
+.main_text_1 {
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    top: 225px;
+    left: 0;
+    font-size: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'KOTRA_BOLD-Bold';
+    color: #fff;
+}
+
+.main_text_2 {
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    font-size: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'KOTRA_BOLD-Bold';
+    color: #ffcc63;
+}
+
+
+
+.event {
+    width: 100%;
+    height: 100vh;
+    background: #e3bbe3;
+}
+
+
+
+.section_1 {
+    background: #f866be;
+    position: relative;
+}
+
+.quicknew {
+    margin-top: 35px;
+    padding: 0;
+    position: fixed;
+    top: 50.5%;
+    left: 91%;
+    z-index: 9999;
+}
+
+.quicknew ul {}
+
+.quicknew ul li {
+    width: 90px;
+    height: 80px;
+    background: #fff;
+    border: 1px solid #ccc;
+    z-index: 9999;
+}
+
+.quicknew ul li a:hover {
+    background: #fff;
+    display: block;
+}
+
+
+
+
+.section_2 {
+    background: #8e48c4;
+    background: url(../image/bg_1.png);
+}
+
+.section_3 {
+    background: #e3bbe3;
+    background: url(../image/bg_3.png);
+}
+
+.headline {
+    width: auto;
+    height: 50%;
+
+}
+
+.headline_1 {
+    width: auto;
+    height: 50%;
+
+}
+
+.body {
+    width: 1200px;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+.body_1 {
+    width: 1200px;
+    height: 40%;
+    margin: 0 auto;
+}
+
+.body_2 {
+    width: 1200px;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+
+}
+
+.b_1 {
+    width: 40%;
+    height: 100%;
+    float: left;
+    background: #eee;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0);
+    margin: 0 0 0 100px;
+}
+
+.b_1 .b_1-head {
+    width: 100%;
+    height: 20%;
+    background: #f3dbab;
+    font-size: 30px;
+    color: #8e48c4;
+    font-family: 'KOTRA_BOLD-Bold';
+    text-align: center;
+    line-height: 60px;
+}
+
+.b_1 .b_1-body {
+    width: 100%;
+    height: 80%;
+    font-family: 'NEXON Lv1 Gothic OTF';
+
+}
+
+.b_2 {
+    width: 40%;
+    height: 100%;
+    float: right;
+    background: #eee;
+    box-shadow: 1px 1px 10px #fff;
+    margin: 0 100px 0 0;
+}
+
+.b_2 .b_2-head {
+    width: 100%;
+    height: 20%;
+    background: #f3dbab;
+    font-size: 30px;
+    color: #8e48c4;
+    font-family: 'KOTRA_BOLD-Bold';
+    text-align: center;
+    line-height: 60px;
+}
+
+.b_2 .b_2-body {
+    width: 100%;
+    height: 80%;
+    font-family: 'NEXON Lv1 Gothic OTF';
+
+}
+
+.b_3 {
+    width: 45%;
+    height: 80%;
+    float: left;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0);
+        margin: 0 0 0 50px;
+}
+
+.b_3 .b_3-head {
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    text-align: center;
+    float: left;
+    padding-bottom: 50px;
+    line-height: 150px;
+    margin: 0 40px 0 20px;
+}
+
+.b_3 .b_3-body {
+    width: 100%;
+    height: 90%;
+    position: relative;
+    padding-top: 5%;
+}
+
+.b_4 {
+    width: 45%;
+    height: 80%;
+    float: right;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0);
+    margin: 0 70px 0 0;
+}
+
+.b_4 .b_4-head {
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    text-align: center;
+    float: left;
+    padding-bottom: 50px;
+    line-height: 150px;
+    margin: 20px 0 0 20px;
+}
+
+.b_4 .b_4-body {
+    width: 100%;
+    height: 90%;
+    position: relative;
+    padding-top: 1%;
+}
+
+.b_3 .b_3-body img {
+    position: absolute;
+    top: 5%;
+    left: 27%;
+    width: 50%;
+}
+
+.b_4 .b_4-body img {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.b_5 {
+    width: 40%;
+    height: 80%;
+    float: left;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0);
+    margin: 0 0 0 100px;
+}
+
+.b_6 {
+    width: 40%;
+    height: 80%;
+    float: right;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0);
+    margin: 0 100px 0 0;
+}
+
+.b_5 .b_5-head {
+
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+    color: #000;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    text-align: center;
+    float: left;
+    line-height: 50px;
+    background: #eee;
+    margin-top: 3%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0);
+}
+
+.b_5 .b_5-body {
+    width: 100%;
+    height: 90%;
+    position: relative;
+    background: #aaa;
+}
+
+.b_6 .b_5-head {
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+    color: #000;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    text-align: center;
+    float: left;
+    line-height: 50px;
+    background: #eee;
+    margin-top: 3%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0);
+}
+
+.b_6 .b_5-body {
+    width: 100%;
+    height: 90%;
+    position: relative;
+    background: #aaa;
+}
+
+.b_5 .b_5-body img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.b_6 .b_5-body img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.b_5 .btn_1 {
+    width: 30%;
+    height: 10%;
+    margin: 0 auto;
+    margin-top: 15%;
+    border: 2px solid ##9451c5;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'KOTRA_BOLD-Bold';
+    background: #9451c5;
+    color: #fff;
+}
+
+.b_5 .btn_1 a {
+    font-size: 20px;
+    color: #fff;
+    display: block;
+}
+
+.b_6 .btn_1 a {
+    font-size: 20px;
+    color: #fff;
+    display: block;
+}
+
+.b_6 .btn_1 {
+    width: 30%;
+    height: 10%;
+    margin: 0 auto;
+    margin-top: 15%;
+    border: 2px solid ##9451c5;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'KOTRA_BOLD-Bold';
+    background: #9451c5;
+    color: #fff;
+}
